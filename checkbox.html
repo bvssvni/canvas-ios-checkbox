@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="checkbox.js"></script>
+<script language="javascript">
+	
+	function site_load() {
+		var checkbox = checkbox_New("mycheckbox");
+		checkbox.checked = true;
+		checkbox.enabled = true;
+		checkbox_Draw(checkbox);
+	}
+
+</script>
+</head>
+<body onload="site_load();">
+	<canvas id="mycheckbox" width="80" height="28"></canvas>
+</body>
+</html>
